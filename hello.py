@@ -1,7 +1,4 @@
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-from flask import Flask, request, make_response
-from math import log10, sqrt
-from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+from flask import Flask
 
 app = Flask(__name__)
 
